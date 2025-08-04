@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Interactiva de Técnicas de Estudio de Élite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">El Arquitecto del Conocimiento</h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">Una guía interactiva basada en la ciencia para un aprendizaje de élite, adaptada a tus necesidades.</p>
+        </header>
+
+        <main>
+            <section id="interactive-dashboard" class="mb-16">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-2xl font-bold text-center mb-6">Panel de Control de Estrategias</h2>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4 text-center"><span class="text-2xl mr-2">①</span>Elige tu Disciplina</h3>
+                        <p class="text-center text-gray-500 mb-4">Selecciona tu campo de estudio para ver un plan de acción integrado y específico.</p>
+                        <div id="selector-disciplina" class="flex flex-wrap justify-center gap-3">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 text-center"><span class="text-2xl mr-2">②</span>O explora una Técnica Fundamental</h3>
+                        <p class="text-center text-gray-500 mb-4">Haz clic para entender los principios cognitivos que potencian todo aprendizaje.</p>
+                        <div id="selector-tecnica" class="flex flex-wrap justify-center gap-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contenido-dinamico" class="dynamic-content min-h-[500px]">
+            </section>
+
+            <section id="sistema-sostenible" class="mt-16">
+                 <h2 class="text-3xl font-bold text-center mb-8 border-b-2 border-[#E0A75E] pb-4">Construyendo un Sistema Sostenible</h2>
+                 <p class="text-center text-gray-600 mb-10 max-w-3xl mx-auto">Las técnicas son poderosas, pero la consistencia es clave. El éxito a largo plazo requiere una base sólida de hábitos, mentalidad y bienestar. Esta sección presenta los pilares universales que sustentan el rendimiento académico de élite.</p>
+                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="content-card p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-3">Arquitectura del Tiempo y Entorno</h3>
+                        <ul class="space-y-3 list-disc list-inside text-gray-700">
+                            <li><strong>Planificación Semanal:</strong> Diseña tu semana de estudio con antelación, asignando bloques de tiempo a tareas específicas para reducir la fatiga por decisión.</li>
+                            <li><strong>Técnica Pomodoro:</strong> Trabaja en intervalos de 25 minutos de alta concentración, seguidos de 5 minutos de descanso, para mantener la productividad y prevenir el agotamiento.</li>
+                            <li><strong>Entorno Optimizado:</strong> Separa tu espacio de estudio del de relajación. Variar los lugares de estudio (biblioteca, casa) puede mejorar el recuerdo al crear diferentes pistas contextuales.</li>
+                            <li><strong>Descansos y Sueño:</strong> El descanso no es una pérdida de tiempo, es una parte activa del proceso de consolidación de la memoria. Prioriza una noche de sueño completo sobre el estudio intensivo.</li>
+                        </ul>
+                    </div>
+                    <div class="content-card p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-3">Mentalidad de un Aprendiz de Élite</h3>
+                        <ul class="space-y-3 list-disc list-inside text-gray-700">
+                            <li><strong>Mentalidad de Crecimiento:</strong> Cree que la inteligencia se desarrolla con esfuerzo y estrategia. Ve los desafíos y errores como oportunidades de aprendizaje, no como juicios sobre tu capacidad.</li>
+                            <li><strong>Aprovecha los Recursos:</strong> No seas un genio solitario. Acude a las horas de consulta de los profesores, forma grupos de estudio y utiliza los centros de tutoría. Enseñar a otros es una forma poderosa de aprender.</li>
+                             <li><strong>Autocompasión:</strong> Evita la trampa de la comparación social. La única comparación válida es contigo mismo el día anterior. Es normal no tener todo resuelto.</li>
+                        </ul>
+                    </div>
+                    <div class="content-card p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-3">Gestión del Estrés y Bienestar</h3>
+                        <ul class="space-y-3 list-disc list-inside text-gray-700">
+                             <li><strong>Reconoce la Presión:</strong> Acepta que el estrés es una parte normal de un entorno exigente. No estás solo en este sentimiento.</li>
+                            <li><strong>Equilibrio Intencional:</strong> Programa deliberadamente tiempo para la vida social, pasatiempos y ejercicio. Estas actividades no son distracciones, son prerrequisitos para un estudio sostenible y eficaz.</li>
+                            <li><strong>Eficacia vs. Eficiencia:</strong> El objetivo no es solo ser eficiente (hacer las cosas rápido), sino ser eficaz (hacer las cosas correctas). A veces, un descanso es la tarea más productiva que puedes realizar.</li>
+                        </ul>
+                    </div>
+                 </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
